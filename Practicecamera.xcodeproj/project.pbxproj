@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18A17CCC22EF2E6500205393 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A17CCB22EF2E6500205393 /* AppDelegate.swift */; };
+		18A17CCE22EF2E6500205393 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A17CCD22EF2E6500205393 /* ViewController.swift */; };
+		18A17CD122EF2E6500205393 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A17CCF22EF2E6500205393 /* Main.storyboard */; };
+		18A17CD322EF2E6600205393 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A17CD222EF2E6600205393 /* Assets.xcassets */; };
+		18A17CD622EF2E6600205393 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A17CD422EF2E6600205393 /* LaunchScreen.storyboard */; };
+		18A17CE122EF2E6600205393 /* PracticecameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A17CE022EF2E6600205393 /* PracticecameraTests.swift */; };
+		18A17CEC22EF2E6600205393 /* PracticecameraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A17CEB22EF2E6600205393 /* PracticecameraUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18A17CDD22EF2E6600205393 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A17CC022EF2E6500205393 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A17CC722EF2E6500205393;
+			remoteInfo = Practicecamera;
+		};
+		18A17CE822EF2E6600205393 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A17CC022EF2E6500205393 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A17CC722EF2E6500205393;
+			remoteInfo = Practicecamera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18A17CC822EF2E6500205393 /* Practicecamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Practicecamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A17CCB22EF2E6500205393 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18A17CCD22EF2E6500205393 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18A17CD022EF2E6500205393 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18A17CD222EF2E6600205393 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18A17CD522EF2E6600205393 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18A17CD722EF2E6600205393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A17CDC22EF2E6600205393 /* PracticecameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticecameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A17CE022EF2E6600205393 /* PracticecameraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticecameraTests.swift; sourceTree = "<group>"; };
+		18A17CE222EF2E6600205393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A17CE722EF2E6600205393 /* PracticecameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticecameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A17CEB22EF2E6600205393 /* PracticecameraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticecameraUITests.swift; sourceTree = "<group>"; };
+		18A17CED22EF2E6600205393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18A17CC522EF2E6500205393 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A17CD922EF2E6600205393 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A17CE422EF2E6600205393 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18A17CBF22EF2E6500205393 = {
+			isa = PBXGroup;
+			children = (
+				18A17CCA22EF2E6500205393 /* Practicecamera */,
+				18A17CDF22EF2E6600205393 /* PracticecameraTests */,
+				18A17CEA22EF2E6600205393 /* PracticecameraUITests */,
+				18A17CC922EF2E6500205393 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18A17CC922EF2E6500205393 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18A17CC822EF2E6500205393 /* Practicecamera.app */,
+				18A17CDC22EF2E6600205393 /* PracticecameraTests.xctest */,
+				18A17CE722EF2E6600205393 /* PracticecameraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18A17CCA22EF2E6500205393 /* Practicecamera */ = {
+			isa = PBXGroup;
+			children = (
+				18A17CCB22EF2E6500205393 /* AppDelegate.swift */,
+				18A17CCD22EF2E6500205393 /* ViewController.swift */,
+				18A17CCF22EF2E6500205393 /* Main.storyboard */,
+				18A17CD222EF2E6600205393 /* Assets.xcassets */,
+				18A17CD422EF2E6600205393 /* LaunchScreen.storyboard */,
+				18A17CD722EF2E6600205393 /* Info.plist */,
+			);
+			path = Practicecamera;
+			sourceTree = "<group>";
+		};
+		18A17CDF22EF2E6600205393 /* PracticecameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				18A17CE022EF2E6600205393 /* PracticecameraTests.swift */,
+				18A17CE222EF2E6600205393 /* Info.plist */,
+			);
+			path = PracticecameraTests;
+			sourceTree = "<group>";
+		};
+		18A17CEA22EF2E6600205393 /* PracticecameraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18A17CEB22EF2E6600205393 /* PracticecameraUITests.swift */,
+				18A17CED22EF2E6600205393 /* Info.plist */,
+			);
+			path = PracticecameraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18A17CC722EF2E6500205393 /* Practicecamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A17CF022EF2E6600205393 /* Build configuration list for PBXNativeTarget "Practicecamera" */;
+			buildPhases = (
+				18A17CC422EF2E6500205393 /* Sources */,
+				18A17CC522EF2E6500205393 /* Frameworks */,
+				18A17CC622EF2E6500205393 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Practicecamera;
+			productName = Practicecamera;
+			productReference = 18A17CC822EF2E6500205393 /* Practicecamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18A17CDB22EF2E6600205393 /* PracticecameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A17CF322EF2E6600205393 /* Build configuration list for PBXNativeTarget "PracticecameraTests" */;
+			buildPhases = (
+				18A17CD822EF2E6600205393 /* Sources */,
+				18A17CD922EF2E6600205393 /* Frameworks */,
+				18A17CDA22EF2E6600205393 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A17CDE22EF2E6600205393 /* PBXTargetDependency */,
+			);
+			name = PracticecameraTests;
+			productName = PracticecameraTests;
+			productReference = 18A17CDC22EF2E6600205393 /* PracticecameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18A17CE622EF2E6600205393 /* PracticecameraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A17CF622EF2E6600205393 /* Build configuration list for PBXNativeTarget "PracticecameraUITests" */;
+			buildPhases = (
+				18A17CE322EF2E6600205393 /* Sources */,
+				18A17CE422EF2E6600205393 /* Frameworks */,
+				18A17CE522EF2E6600205393 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A17CE922EF2E6600205393 /* PBXTargetDependency */,
+			);
+			name = PracticecameraUITests;
+			productName = PracticecameraUITests;
+			productReference = 18A17CE722EF2E6600205393 /* PracticecameraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18A17CC022EF2E6500205393 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = WarriorCats;
+				TargetAttributes = {
+					18A17CC722EF2E6500205393 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					18A17CDB22EF2E6600205393 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 18A17CC722EF2E6500205393;
+					};
+					18A17CE622EF2E6600205393 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 18A17CC722EF2E6500205393;
+					};
+				};
+			};
+			buildConfigurationList = 18A17CC322EF2E6500205393 /* Build configuration list for PBXProject "Practicecamera" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18A17CBF22EF2E6500205393;
+			productRefGroup = 18A17CC922EF2E6500205393 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18A17CC722EF2E6500205393 /* Practicecamera */,
+				18A17CDB22EF2E6600205393 /* PracticecameraTests */,
+				18A17CE622EF2E6600205393 /* PracticecameraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18A17CC622EF2E6500205393 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A17CD622EF2E6600205393 /* LaunchScreen.storyboard in Resources */,
+				18A17CD322EF2E6600205393 /* Assets.xcassets in Resources */,
+				18A17CD122EF2E6500205393 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A17CDA22EF2E6600205393 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A17CE522EF2E6600205393 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18A17CC422EF2E6500205393 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A17CCE22EF2E6500205393 /* ViewController.swift in Sources */,
+				18A17CCC22EF2E6500205393 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A17CD822EF2E6600205393 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A17CE122EF2E6600205393 /* PracticecameraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A17CE322EF2E6600205393 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A17CEC22EF2E6600205393 /* PracticecameraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18A17CDE22EF2E6600205393 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18A17CC722EF2E6500205393 /* Practicecamera */;
+			targetProxy = 18A17CDD22EF2E6600205393 /* PBXContainerItemProxy */;
+		};
+		18A17CE922EF2E6600205393 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18A17CC722EF2E6500205393 /* Practicecamera */;
+			targetProxy = 18A17CE822EF2E6600205393 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18A17CCF22EF2E6500205393 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A17CD022EF2E6500205393 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18A17CD422EF2E6600205393 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A17CD522EF2E6600205393 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18A17CEE22EF2E6600205393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18A17CEF22EF2E6600205393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18A17CF122EF2E6600205393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Practicecamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Prof.Ava.Practicecamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18A17CF222EF2E6600205393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Practicecamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Prof.Ava.Practicecamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18A17CF422EF2E6600205393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PracticecameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Prof.Ava.PracticecameraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Practicecamera.app/Practicecamera";
+			};
+			name = Debug;
+		};
+		18A17CF522EF2E6600205393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PracticecameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Prof.Ava.PracticecameraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Practicecamera.app/Practicecamera";
+			};
+			name = Release;
+		};
+		18A17CF722EF2E6600205393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PracticecameraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Prof.Ava.PracticecameraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Practicecamera;
+			};
+			name = Debug;
+		};
+		18A17CF822EF2E6600205393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PracticecameraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Prof.Ava.PracticecameraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Practicecamera;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18A17CC322EF2E6500205393 /* Build configuration list for PBXProject "Practicecamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A17CEE22EF2E6600205393 /* Debug */,
+				18A17CEF22EF2E6600205393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A17CF022EF2E6600205393 /* Build configuration list for PBXNativeTarget "Practicecamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A17CF122EF2E6600205393 /* Debug */,
+				18A17CF222EF2E6600205393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A17CF322EF2E6600205393 /* Build configuration list for PBXNativeTarget "PracticecameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A17CF422EF2E6600205393 /* Debug */,
+				18A17CF522EF2E6600205393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A17CF622EF2E6600205393 /* Build configuration list for PBXNativeTarget "PracticecameraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A17CF722EF2E6600205393 /* Debug */,
+				18A17CF822EF2E6600205393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18A17CC022EF2E6500205393 /* Project object */;
+}
